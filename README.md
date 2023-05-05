@@ -1,1 +1,3 @@
 # Pareto-Front-analysis-for-scRNA-seq-data
+
+I worked on this computational biology project using single cell RNA expression data from metastatic lung adenocarcinoma and performed Pareto front analysis, and differential expression analysis on the genes expressed near the archetypes for each tumor sample to explore the intra tumor heterogeneity (ITH). I was provided with a TPM normalized single cell RNA sequencing dataset to perform the Pareto front analysis using the ParTI MATLAB package developed by Uri Alon group. I then performed differential expression analysis on the genes expressed near the archetypes from Pareto analysis, using various Bioconductor packages in R.
