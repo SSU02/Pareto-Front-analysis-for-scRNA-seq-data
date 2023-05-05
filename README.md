@@ -27,7 +27,7 @@ The data near the archetypes (closest to the vertices of the polytope) denote th
 
 The TPM data from single-cell RNA sequencing lung adenocarcinoma (LUAD) was used for the Pareto front analysis (accession code GSE131907). The data contained single-cell mRNA expression profiles acquired from 58 samples from forty-four patients diagnosed with lung adenocarcinoma (LUAD). The TPM expression dataset was separated into smaller datasets based on the sample IDs using Python code. 
 
-# splitting.py or multiprocess code.py can be used for this step. (The multiprocess code.py code uses 8 forks and can be modified depending on the users processor)
+splitting.py or multiprocess code.py can be used for this step. (The multiprocess code.py code uses 8 forks and can be modified depending on the users processor)
 
 The large TPM dataset, separated based on the patient sample ID for matched cancer samples were analyzed by using the ParTI_lite function in the ParTI Matlab package. 
 
@@ -59,27 +59,48 @@ The results for the entire analysis can be availble on request. Please contact s
 
 
 
-References:
+# References:
 Grosselin, K., Durand, A., Marsolier, J., Poitou, A., Marangoni, E., Nemati, F., Dahmani, A., Lameiras, S., Reyal, F., Frenoy, O., Pousse, Y., Reichen, M., Woolfe, A., Brenan, C., Griffiths, A. D., Vallot, C., & Gérard, A. (2019). High-throughput single-cell ChIP-seq identifies heterogeneity of chromatin states in breast cancer. Nature genetics, 51(6), 1060–1066. https://doi.org/10.1038/s41588-019-0424-9
+
 Hart, Y., Sheftel, H., Hausser, J., Szekely, P., Ben-Moshe, N. B., Korem, Y., Tendler, A., Mayo, A. E., & Alon, U. (2015). Inferring biological tasks using Pareto analysis of high-dimensional data. Nature methods, 12(3), 233–235. https://doi.org/10.1038/nmeth.3254
+
 Hastie, T., Tibshirani, R., & Friedman, J. H.(2009). The elements of statistical learning: data mining, inference, and prediction. 2nd ed. New York: Springer.520–528.
+
 Jamal-Hanjani, M., Quezada, S. A., Larkin, J., & Swanton, C. (2015). Translational implications of tumor heterogeneity. Clinical cancer research : an official journal of the American Association for Cancer Research, 21(6), 1258–1266. https://doi.org/10.1158/1078-0432.CCR-14-1429
+
 Jamal-Hanjani, M., Wilson, G. A., McGranahan, N., Birkbak, N. J., Watkins, T., Veeriah, S., Shafi, S., Johnson, D. H., Mitter, R., Rosenthal, R., Salm, M., Horswell, S., Escudero, M., Matthews, N., Rowan, A., Chambers, T., Moore, D. A., Turajlic, S., Xu, H., Lee, S. M., … TRACERx Consortium (2017). Tracking the Evolution of Non-Small-Cell Lung Cancer. The New England journal of medicine, 376(22), 2109–2121. https://doi.org/10.1056/NEJMoa1616288
+
 Love, M. I., Huber, W., & Anders, S. (2014). Moderated estimation of fold change and dispersion for RNA-seq data with DESeq2. Genome biology, 15(12), 550. https://doi.org/10.1186/s13059-014-0550-8
+
 Marusyk, A., Almendro, V., & Polyak, K. (2012). Intra-tumour heterogeneity: a looking glass for cancer?. Nature reviews. Cancer, 12(5), 323–334. https://doi.org/10.1038/nrc3261
+
 McDavid, A., Finak, G., Yajima, M. (2021). MAST: Model-based Analysis of Single Cell Transcriptomics. R package version 1.18.0, https://github.com/RGLab/MAST/.
+
 McGranahan, N., & Swanton, C. (2017). Clonal Heterogeneity and Tumor Evolution: Past, Present, and the Future. Cell, 168(4), 613–628. https://doi.org/10.1016/j.cell.2017.01.018
+
 McGranahan, N., Favero, F., de Bruin, E. C., Birkbak, N. J., Szallasi, Z., & Swanton, C. (2015). Clonal status of actionable driver events and the timing of mutational processes in cancer evolution. Science translational medicine, 7(283), 283ra54. https://doi.org/10.1126/scitranslmed.aaa1408
+
 Miao, Z., Deng, K., Wang, X., & Zhang, X. (2018). DEsingle for detecting three types of differential expression in single-cell RNA-seq data. Bioinformatics (Oxford, England), 34(18), 3223–3224. https://doi.org/10.1093/bioinformatics/bty332
+
 Mørup, M., & Hansen, L.K. (2012). Archetypal analysis for machine learning and data mining. Neurocomputing, 80, 54-63.
+
 Ramón Y Cajal, S., Sesé, M., Capdevila, C., Aasen, T., De Mattos-Arruda, L., Diaz-Cano, S. J., Hernández-Losa, J., & Castellví, J. (2020). Clinical implications of intratumor heterogeneity: challenges and opportunities. Journal of molecular medicine (Berlin, Germany), 98(2), 161–177. https://doi.org/10.1007/s00109-020-01874-2
+
 Ringnér M. (2008). What is principal component analysis?. Nature biotechnology, 26(3), 303–304. https://doi.org/10.1038/nbt0308-303
+
 Sharma, A., Merritt, E., Hu, X., Cruz, A., Jiang, C., Sarkodie, H., Zhou, Z., Malhotra, J., Riedlinger, G. M., & De, S. (2019). Non-Genetic Intra-Tumor Heterogeneity Is a Major Predictor of Phenotypic Heterogeneity and Ongoing Evolutionary Dynamics in Lung Tumors. Cell reports, 29(8), 2164–2174.e5. https://doi.org/10.1016/j.celrep.2019.10.045
+
 Shoval, O., Sheftel, H., Shinar, G., Hart, Y., Ramote, O., Mayo, A., Dekel, E., Kavanagh, K., & Alon, U. (2012). Evolutionary trade-offs, Pareto optimality, and the geometry of phenotype space. Science (New York, N.Y.), 336(6085), 1157–1160. https://doi.org/10.1126/science.1217405
+
 Teixeira, V. H., Pipinikas, C. P., Pennycuick, A., Lee-Six, H., Chandrasekharan, D., Beane, J., Morris, T. J., Karpathakis, A., Feber, A., Breeze, C. E., Ntolios, P., Hynds, R. E., Falzon, M., Capitanio, A., Carroll, B., Durrenberger, P. F., Hardavella, G., Brown, J. M., Lynch, A. G., Farmery, H., … Janes, S. M. (2019). Deciphering the genomic, epigenomic, and transcriptomic landscapes of pre-invasive lung cancer lesions. Nature medicine, 25(3), 517–525. https://doi.org/10.1038/s41591-018-0323-0
+
 van der Maaten, L., & Hinton, G.,. Visualizing data using t-SNE. J Mach Learn Res. 2008;9:2579–2605.
+
 van Galen, P., Hovestadt, V., Wadsworth Ii, M. H., Hughes, T. K., Griffin, G. K., Battaglia, S., Verga, J. A., Stephansky, J., Pastika, T. J., Lombardi Story, J., Pinkus, G. S., Pozdnyakova, O., Galinsky, I., Stone, R. M., Graubert, T. A., Shalek, A. K., Aster, J. C., Lane, A. A., & Bernstein, B. E. (2019). Single-Cell RNA-Seq Reveals AML Hierarchies Relevant to Disease Progression and Immunity. Cell, 176(6), 1265–1281.e24. https://doi.org/10.1016/j.cell.2019.01.031
+
 Vitale, I., Sistigu, A., Manic, G., Rudqvist, N. P., Trajanoski, Z., & Galluzzi, L. (2019). Mutational and Antigenic Landscape in Tumor Progression and Cancer Immunotherapy. Trends in cell biology, 29(5), 396–416. https://doi.org/10.1016/j.tcb.2019.01.003
+
 Wang, J., Cazzato, E., Ladewig, E., Frattini, V., Rosenbloom, D. I., Zairis, S., Abate, F., Liu, Z., Elliott, O., Shin, Y. J., Lee, J. K., Lee, I. H., Park, W. Y., Eoli, M., Blumberg, A. J., Lasorella, A., Nam, D. H., Finocchiaro, G., Iavarone, A., & Rabadan, R. (2016). Clonal evolution of glioblastoma under therapy. Nature genetics, 48(7), 768–776. https://doi.org/10.1038/ng.3590
+
 Wang, T., Li, B., Nelson, C. E., & Nabavi, S. (2019). Comparative analysis of differential gene expression analysis tools for single-cell RNA sequencing data. BMC bioinformatics, 20(1), 40. https://doi.org/10.1186/s12859-019-2599-6
 
