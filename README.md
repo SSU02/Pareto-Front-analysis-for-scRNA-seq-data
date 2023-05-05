@@ -59,9 +59,6 @@ The results for the entire analysis can be availble on request. Please contact s
 
 
 
-
-
-
 References:
 Grosselin, K., Durand, A., Marsolier, J., Poitou, A., Marangoni, E., Nemati, F., Dahmani, A., Lameiras, S., Reyal, F., Frenoy, O., Pousse, Y., Reichen, M., Woolfe, A., Brenan, C., Griffiths, A. D., Vallot, C., & Gérard, A. (2019). High-throughput single-cell ChIP-seq identifies heterogeneity of chromatin states in breast cancer. Nature genetics, 51(6), 1060–1066. https://doi.org/10.1038/s41588-019-0424-9
 Hart, Y., Sheftel, H., Hausser, J., Szekely, P., Ben-Moshe, N. B., Korem, Y., Tendler, A., Mayo, A. E., & Alon, U. (2015). Inferring biological tasks using Pareto analysis of high-dimensional data. Nature methods, 12(3), 233–235. https://doi.org/10.1038/nmeth.3254
